@@ -1,0 +1,11 @@
+../Core/Src/bootloader.c:107:10:readWord	0	static
+../Core/Src/bootloader.c:76:6:flashWord	24	static
+../Core/Src/bootloader.c:183:6:lockFlash	8	static
+../Core/Src/bootloader.c:207:6:deinitEverything	8	static
+../Core/Src/bootloader.c:196:6:jumpToApp	8	static,ignoring_inline_asm
+../Core/Src/bootloader.c:224:9:string_compare	8	static
+../Core/Src/bootloader.c:238:6:errorBlink	8	static
+../Core/Src/bootloader.c:14:6:bootloaderInit	16	static
+../Core/Src/bootloader.c:114:6:eraseMemory	32	static
+../Core/Src/bootloader.c:151:6:unlockFlashAndEraseMemory	32	static
+../Core/Src/bootloader.c:284:6:messageHandler	8	static
