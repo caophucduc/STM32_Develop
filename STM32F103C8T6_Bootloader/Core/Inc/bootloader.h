@@ -50,9 +50,6 @@ typedef struct
     application_t*	func_p;        // Program Counter
 } JumpStruct;
 
-AppSelection App;
-uint32_t Flashed_offset;
-FlashStatus flashStatus;
 extern USBD_HandleTypeDef hUsbDeviceFS;//it is defined in the usb_device.c
 
 void bootloaderInit();

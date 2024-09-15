@@ -7,6 +7,9 @@
 
 
 #include "bootloader.h"
+AppSelection App;
+uint32_t Flashed_offset;
+FlashStatus flashStatus;
 
 void bootloaderInit()
 {

@@ -265,7 +265,7 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
   //my code begin
 	HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET);//LED ON
 	uint16_t length = (uint16_t) *Len;
-	if(length == 4 && flashStatus == Unlocked)
+	if(length == 4 && length == Unlocked)
 	{
 		uint32_t dataToFlash = (Buf[3]<<24) +
 							  (Buf[2]<<16) +
